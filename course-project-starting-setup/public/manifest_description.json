@@ -1,0 +1,50 @@
+{
+    "name" : "Instagram as Progressive Web App", // long name of app (eg on Splashscreen)
+    "short_name" : "PWAGram", // name below icon
+    "start_url" : "/index.html", // which page to load on startup
+    "scope" : ".", // Which pages are included in "PWA Experience"
+    "display" : "standalone", // should it look like a standalone app?
+    "background_color" : "#fff", // background whilst loading & on Splashscreen
+    "theme_color" : "#3F51B5", // theme color ( eg on top bar in task switcher)
+    "description" : "A simple Instagram Clone, implementing a lot of PWA love.", // description ( eg as favorite)
+    "dir " : "ltr", // read direction of your app
+    "lang" : "en-US", // main lanugage of app
+    "orientation" : "portrait-primary", // set (and enforce) default orientation
+    "icons" : [     // configure icons (eg on homescreen)
+                {
+                    "src" : "/src/images/icons/app-icon-48x48.png", // icon path
+                    "type" : "image/png",                           // image type
+                    "sizes" : "48x48"                               // icon size, browser chooses best one for given device  
+                },
+                {
+                    "src" : "/src/images/icons/app-icon-96x96.png", // icon path
+                    "type" : "image/png",
+                    "sizes" : "96x96"
+                },
+                {
+                    "src" : "/src/images/icons/app-icon-144x144.png", // icon path
+                    "type" : "image/png",
+                    "sizes" : "144x144"
+                },
+                {
+                    "src" : "/src/images/icons/app-icon-192x192.png", // icon path
+                    "type" : "image/png",
+                    "sizes" : "192x192"
+                },
+                {
+                    "src" : "/src/images/icons/app-icon-256x256.png", // icon path
+                    "type" : "image/png",
+                    "sizes" : "256x256"
+                },
+                {
+                    "src" : "/src/images/icons/app-icon-384x384.png", // icon path
+                    "type" : "image/png",
+                    "sizes" : "384x384"
+                },
+                {
+                    "src" : "/src/images/icons/app-icon-512x512.png", // icon path
+                    "type" : "image/png",
+                    "sizes" : "512x512"
+                }
+    ]
+}
